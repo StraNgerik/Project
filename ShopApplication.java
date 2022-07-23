@@ -127,10 +127,10 @@ public class ShopApplication
         ShopApplication a = new ShopApplication();
         a.UBase[0] = new User(228,"Sergiy","Pritula",500);
         a.UBase[1] = new User(1337,"Petro","Poroshenko",0);
-        a.UBase[2] = new User(228,"Vasya","Pupkin",200);
+        a.UBase[2] = new User(226,"Vasya","Pupkin",200);
         a.PBase[0] = new Product(121,"Phone",200);
-        a.PBase[1] = new Product(121,"Nokia",100);
-        a.PBase[2] = new Product(121,"Ruzzia",500);
+        a.PBase[1] = new Product(122,"Nokia",100);
+        a.PBase[2] = new Product(123,"Ruzzia",500);
         for(int i=0;i<100;i++)
         {
             a.Logs[i] = new Log(0,0);
